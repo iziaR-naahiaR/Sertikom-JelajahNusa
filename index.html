@@ -8,57 +8,284 @@
      <link rel="icon" href="Assets/images/Logo Pin Wisata Indonesia.png">
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
+    <!-- slider -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.css">
     <!-- css -->
     <link rel="stylesheet" href="Assets/style.css">
-    <!-- slider -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@14.4.0/swiper-bundle.min.css">
     <!-- Font Awesome -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
   </head>
   <body>
-    <!-- NavBar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary d-flex justify-content-center">
-        <div class="container">
-            <!-- Icon-name -->
-            <a class="navbar-brand" href="#">
-                <span class="navbar-brand">
-                    <img src="Assets/images/Logo Pin Wisata Indonesia.png" alt="icon JelajahNusa" width="90" height="70">
-                </span>
-                JelajahNusa
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <!-- Menu -->
-                <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Destinations</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Packages</a>
-                </li>
-                <!-- Button -->
-                <li class="nav-item">
-                <div class="nav-button">
-                    <a class="nav-link" href="#">Contact</a>
+    <div class="container-site">
+        <main class="hero">
+            <div class="hero-bg-layer"></div>
+            <div class="hero-bg-layer layer-second"></div>
+            <!-- NavBar -->
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <!-- Icon-name -->
+                    <a class="navbar-brand" href="#">
+                        <span>
+                            <img src="Assets/images/Logo Pin Wisata Indonesia.png" alt="icon JelajahNusa" width="90" height="70">
+                        </span>
+                        JelajahNusa
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <!-- Menu -->
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Destinations</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Packages</a>
+                            </li>
+                            <!-- Button -->
+                            <li class="nav-item">
+                                <div class="nav-button">
+                                    <a class="nav-link" href="#">Contact</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                </li>
-            </ul>
+            </nav>
+            <!-- Hero -->
+            <div class="hero-content">
+                <div class="row hero-row align-items-start">
+                    <div class="col-12 col-md-12 col-lg-6 d-flex justify-content-center flex-column">
+                        <div class="hero-content-text">
+                            <h1 class="hero-title">
+                                Jelajahi Keindahan Indonesia<br> <span>Bersama <span class="title-1">Jelajah<span class="title-2">Nusa</span></span>
+                            </h1>
+                            <p class="hero-subtitle">
+                                Temukan pengalaman perjalanan yang berkesan, mulai dari pantai tropis, pegunungan, hingga kekayaan budaya Nusantara.
+                            </p>
+                        </div>
+                        <section class="hero-content-destination">
+                        <!-- content hero destination -->
+                            <div class="hero-text">
+                                <h1>
+
+                                </h1>
+                                <p>
+                                    
+                                </p>
+                                <div class="button-hero">
+                                    <a class="btn btn-primary" href="#" role="button">Explore <i class="fa-solid fa-arrow-right"></i></a>
+                                    <a class="btn btn-primary" href="#" role="button">Packages <i class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                                
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-6">
+                        <div class="destination-slider">
+                            <!-- swiper destinasi -->
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide ">
+                                        <div class="destination-card">
+                                            <img src="Assets/images/Foto budaya Bali.jpg" alt="budaya bali">
+                                            <div class="destination-info">
+                                                Bali
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide ">
+                                        <div class="destination-card">
+                                            <img src="Assets/images/Foto wisata Raja Ampat.jpg" alt="budaya bali">
+                                            <div class="destination-info">
+                                                Raja Ampat
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide ">
+                                        <div class="destination-card">
+                                            <img src="Assets/images/Foto pengalaman bromo.jpg" alt="budaya bali">
+                                            <div class="destination-info">
+                                                Bromo
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide ">
+                                        <div class="destination-card">
+                                            <img src="Assets/images/Foto alam Labuan Bajo.jpeg" alt="budaya bali">
+                                            <div class="destination-info">
+                                                Labuan Bajo
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+                <div class="card-bar d-flex align-items-center justify-content-between">
+                    <div class="bar-item d-flex align-items-center">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div class="bar-info">
+                            <h6>Destination</h6>
+                            <span>City or country</span>
+                        </div>
+                    </div>
+
+                    <div class="bar-item d-flex align-items-center">
+                        <i class="fa-solid fa-calendar"></i>
+                        <div class="bar-info">
+                            <h6>Check-In</h6>
+                            <span>Choose Date</span>
+                        </div>
+                    </div>
+
+                    <div class="bar-item d-flex align-items-center">
+                        <i class="fa-solid fa-calendar"></i>
+                        <div class="bar-info">
+                            <h6>Check-Out</h6>
+                            <span>Choose Date</span>
+                        </div>
+                    </div>
+
+                    <div class="bar-item d-flex align-items-center">
+                        <i class="fa-solid fa-user"></i>
+                        <div class="bar-info">
+                            <h6>Travelers</h6>
+                            <span>Add Guest</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <div class="about">
+        <!-- About section -->
+        <div class="about-wrapper">
+            <div class="col-12 col-md-12 col-lg-6 d-flex align-items-center justify-content-center flex-column bagian-kiri">
+                <div class="about-pic">
+                    <img src="Assets/images/Hero.jpg" alt="about" class="col-img rounded-5">
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-6 d-flex justify-content-center flex-column bagian-kanan">
+                <div class="baground-kanan rounded-5">
+                    <h2>Your Journey, Our Passion</h2>
+                    <p>
+                        JelajahNusa hadir untuk membantu wisatawan menjelajahi keindahan Indonesia melalui perjalanan yang nyaman,
+                        terencana, dan berkesan. Kami percaya setiap perjalanan memiliki cerita yang layak dikenang.
+                    </p>
+                    <div class="row g-2">
+                        <div class="about-card d-flex align-items-center">
+                            <div class="about-item d-flex flex-column align-items-start">
+                                <i class="fa-solid fa-boxes-packing"></i>
+                                <p class="desc">
+                                    Paket perjalanan terkurasi
+                                </p>
+                            </div>
+                            <div class="about-item d-flex flex-column align-items-start">
+                                <i class="fa-solid fa-person-arrow-up-from-line"></i>
+                                <p class="desc">
+                                    Pemandu berpengalaman
+                                </p>
+                            </div>
+                            <div class="about-item d-flex flex-column align-items-start">
+                                <i class="fa-solid fa-money-bill-wave"></i>
+                                <p class="desc">
+                                    Harga transparan
+                                </p>
+                            </div>
+                            <div class="about-item d-flex flex-column align-items-start">
+                                <i class="fa-solid fa-hand-holding-hand"></i>
+                                <p class="desc">
+                                    Dukungan pelanggan
+                                </p>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
             </div>
         </div>
-    </nav>
+        
+        
+    </div>
+
+    <div class="Destinations">
+        <!-- Destinations -->
+         <div class="destination-wrapper">
+            <div class="destination-kiri col-12 col-md-12 col-lg-6">
+                <h1>Explore Populer Destinations</h1>
+            </div>
+            <div class="destination-kanan col-12 col-md-12 col-lg-6">
+
+            </div>
+         </div>
+    </div>
+    
+    
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.min.js" integrity="sha384-89aa4glufciPv46aKltztWQEmk+Tu9W2RhzXr6VcnUUEub7F8+06RcL2RYLCOHUq" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js" integrity="sha384-WyOxWvTyr1QaMPfiPJSv76iReVthorl5uWlFtZPyK0IEB0hGzo9y5Bp9mYanr8Bu" crossorigin="anonymous"></script>
+    
+    <!-- Slider -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.js"></script>
+
+    <script>
+    var swiper = new Swiper('.mySwiper', {
+    slidesPerView: 2.5,
+    slidesPerGroup: 1,
+    spaceBetween: 16,
+    centeredSlides: false,
+    loop: true,
+    speed: 600,
+
+    navigation: {
+        nextEl: '.mySwiper .swiper-button-next',
+        prevEl: '.mySwiper .swiper-button-prev',
+    },
+
+    pagination: {
+        el: '.mySwiper .swiper-pagination',
+        clickable: true,
+    },
+
+    watchSlidesProgress: true,
+    watchSlidesVisibility: true,
+
+    breakpoints: {
+    0: {
+        slidesPerView: 1.1,
+        spaceBetween: 10,
+    },
+
+    576: {
+        slidesPerView: 1.5,
+        spaceBetween: 12,
+    },
+
+    768: {
+        slidesPerView: 2,
+        spaceBetween: 14,
+    },
+
+    992: {
+        slidesPerView: 2.5,
+        spaceBetween: 16,
+    }
+    },
+    });
+    </script>
     <!-- JavaScript -->
-     <link rel="stylesheet" href="Assets/script.js">
+    <script src="Assets/script.js"></script>
   </body>
 </html>
