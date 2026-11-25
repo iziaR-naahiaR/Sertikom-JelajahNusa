@@ -22,7 +22,7 @@
             <div class="hero-bg-layer layer-second"></div>
             <!-- NavBar -->
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
+                <div class="container-fluid d-flex justify-content-between">
                     <!-- Icon-name -->
                     <a class="navbar-brand" href="#">
                         <span>
@@ -48,13 +48,11 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Packages</a>
                             </li>
-                            <!-- Button -->
-                            <li class="nav-item">
-                                <div class="nav-button">
-                                    <a class="nav-link" href="#">Contact</a>
-                                </div>
-                            </li>
                         </ul>
+                    </div>
+                    <!-- Button -->
+                    <div class="nav-button">
+                        <a class="nav-link" href="#">Contact</a>
                     </div>
                 </div>
             </nav>
@@ -125,8 +123,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-button-next"></div>
-                                <div class="swiper-button-prev"></div>
                                 <div class="swiper-pagination"></div>
                             </div>
                         </div>    
@@ -173,6 +169,9 @@
         <!-- About section -->
         <div class="about-wrapper">
             <div class="col-12 col-md-12 col-lg-6 d-flex align-items-center justify-content-center flex-column bagian-kiri">
+                <h2>
+                    About Us.
+                </h2>
                 <div class="about-pic">
                     <img src="Assets/images/Hero.jpg" alt="about" class="col-img rounded-5">
                 </div>
@@ -187,25 +186,34 @@
                     <div class="row g-2">
                         <div class="about-card d-flex align-items-center">
                             <div class="about-item d-flex flex-column align-items-start">
-                                <i class="fa-solid fa-boxes-packing"></i>
+                                <span>
+                                    <i class="fa-solid fa-boxes-packing"></i>
+                                </span>
+                                
                                 <p class="desc">
                                     Paket perjalanan terkurasi
                                 </p>
                             </div>
                             <div class="about-item d-flex flex-column align-items-start">
-                                <i class="fa-solid fa-person-arrow-up-from-line"></i>
+                                <span>
+                                    <i class="fa-solid fa-person-arrow-up-from-line"></i>
+                                </span>
                                 <p class="desc">
                                     Pemandu berpengalaman
                                 </p>
                             </div>
                             <div class="about-item d-flex flex-column align-items-start">
-                                <i class="fa-solid fa-money-bill-wave"></i>
+                                <span>
+                                    <i class="fa-solid fa-money-bill-wave"></i>
+                                </span>
                                 <p class="desc">
                                     Harga transparan
                                 </p>
                             </div>
                             <div class="about-item d-flex flex-column align-items-start">
-                                <i class="fa-solid fa-hand-holding-hand"></i>
+                                <span>
+                                    <i class="fa-solid fa-hand-holding-hand"></i>
+                                </span>
                                 <p class="desc">
                                     Dukungan pelanggan
                                 </p>
@@ -219,17 +227,122 @@
         
     </div>
 
-    <div class="Destinations">
-        <!-- Destinations -->
-         <div class="destination-wrapper">
-            <div class="destination-kiri col-12 col-md-12 col-lg-6">
-                <h1>Explore Populer Destinations</h1>
+    
+    <section class="destination-section justify-content-center align-items-center">
+        <div class="container-fluid">
+
+            <!-- Section Heading -->
+            <div class="destination-heading">
+                <h2>Destinations</h2>
+                <p>Temukan destinasi wisata terbaik di Indonesia.</p>
             </div>
-            <div class="destination-kanan col-12 col-md-12 col-lg-6">
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-5">
+                    <div class="featured-destination">
+                        <div class="featured-image">
+                            <img src="Assets/images/Hero.jpg" alt="feature">
+
+                            <div class="feature-text">
+                                <h3>
+                                    Explore Popular Destinations
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-12 col-lg-7">
+                    <div class="destination-list">
+                        <div class="destination-item">
+                            <div class="destination-image">
+                                <img src="Assets/images/Bali.jpg" alt="Bali">
+                            </div>
+
+                            <div class="destination-detail">
+                                <div class="destination-rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>4.9</span>
+                                </div>
+
+                                <h4>Bali</h4>
+                                <p>Nusa Tenggara Islands, Indonesian</p>
+
+                                <div class="destination-price">
+                                    <span>Starting from</span>
+                                    <h5>Rp 2.450.000</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="destination-item">
+                            <div class="destination-image">
+                                <img src="Assets/images/Raja Ampat.jpg" alt="Raja ampat">
+                            </div>
+
+                            <div class="destination-detail">
+                                <div class="destination-rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>4.8</span>
+                                </div>
+
+                                <h4>Raja Ampat</h4>
+                                <p>West Papua, Indonesian</p>
+
+                                <div class="destination-price">
+                                    <span>Starting from</span>
+                                    <h5>Rp5.750.000</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="destination-item">
+                            <div class="destination-image">
+                                <img src="Assets/images/Bromo.jpg" alt="Gunung Bromo">
+                            </div>
+
+                            <div class="destination-detail">
+                                <div class="destination-rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>4.9</span>
+                                </div>
+
+                                <h4>Mount Bromo</h4>
+                                <p>East Java, Indonesian</p>
+
+                                <div class="destination-price">
+                                    <span>Starting from</span>
+                                    <h5>Rp 1.350.000</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="destination-item">
+                            <div class="destination-image">
+                                <img src="Assets/images/Labuan Bajo.jpg" alt="Labuan Bajo">
+                            </div>
+
+                            <div class="destination-detail">
+                                <div class="destination-rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>4.8</span>
+                                </div>
+
+                                <h4>Labuan Bajo</h4>
+                                <p>East Nusa Tenggara, Indonesian</p>
+
+                                <div class="destination-price">
+                                    <span>Starting from</span>
+                                    <h5>Rp 3.950.000</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             </div>
-         </div>
-    </div>
+        </div>
+    </section>
+
     
     
     <!-- Bootstrap -->
@@ -248,11 +361,7 @@
     centeredSlides: false,
     loop: true,
     speed: 600,
-
-    navigation: {
-        nextEl: '.mySwiper .swiper-button-next',
-        prevEl: '.mySwiper .swiper-button-prev',
-    },
+    autoplay: true,
 
     pagination: {
         el: '.mySwiper .swiper-pagination',

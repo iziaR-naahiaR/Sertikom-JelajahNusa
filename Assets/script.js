@@ -62,9 +62,9 @@ function updateHeroBackground(destination) {
     nextLayer.style.backgroundImage = `
         linear-gradient(
             90deg,
-            rgba(16, 36, 58, 0.55) 0%,
-            rgba(16, 36, 58, 0.39) 35%,
-            rgba(16, 36, 58, 0.08) 100%
+            rgba(11, 21, 32, 0.55) 80%,
+            rgba(11, 21, 32, 0.39) 85%,
+            rgba(11, 21, 32, 0.08) 100%
         ),
         url("${destination.background}")
     `;
