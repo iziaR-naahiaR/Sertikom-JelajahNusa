@@ -13,14 +13,15 @@
     <!-- css -->
     <link rel="stylesheet" href="Assets/style.css">
     <!-- Font Awesome -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="container-site">
-        <main class="hero">
-            <div class="hero-bg-layer"></div>
-            <div class="hero-bg-layer layer-second"></div>
-            <!-- NavBar -->
+        <!-- NavBar -->
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid d-flex justify-content-between">
                     <!-- Icon-name -->
@@ -48,14 +49,24 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Packages</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <!-- Button -->
+                                <div class="nav-button">
+                                    <a class="nav-link" href="#">Booking Now  <i class="fa-solid fa-paper-plane"></i></a>
+                                </div>
+                            </li>
                         </ul>
                     </div>
-                    <!-- Button -->
-                    <div class="nav-button">
-                        <a class="nav-link" href="#">Contact</a>
-                    </div>
+                    
                 </div>
             </nav>
+        <main class="hero">
+            <div class="hero-bg-layer"></div>
+            <div class="hero-bg-layer layer-second"></div>
+            
             <!-- Hero -->
             <div class="hero-content">
                 <div class="row hero-row align-items-start">
@@ -167,62 +178,67 @@
 
     <div class="about">
         <!-- About section -->
-        <div class="about-wrapper">
-            <div class="col-12 col-md-12 col-lg-6 d-flex align-items-center justify-content-center flex-column bagian-kiri">
-                <h2>
-                    About Us.
-                </h2>
-                <div class="about-pic">
-                    <img src="Assets/images/Hero.jpg" alt="about" class="col-img rounded-5">
-                </div>
-            </div>
-            <div class="col-12 col-md-12 col-lg-6 d-flex justify-content-center flex-column bagian-kanan">
-                <div class="baground-kanan rounded-5">
-                    <h2>Your Journey, Our Passion</h2>
-                    <p>
-                        JelajahNusa hadir untuk membantu wisatawan menjelajahi keindahan Indonesia melalui perjalanan yang nyaman,
-                        terencana, dan berkesan. Kami percaya setiap perjalanan memiliki cerita yang layak dikenang.
-                    </p>
-                    <div class="row g-2">
-                        <div class="about-card d-flex align-items-center">
-                            <div class="about-item d-flex">
-                                    <i class="fa-solid fa-boxes-packing"></i>
-                                
-                                <p class="desc">
-                                    Paket perjalanan terkurasi
-                                </p>
-                            </div>
-                            <div class="about-item d-flex">
-        
-                                    <i class="fa-solid fa-person-arrow-up-from-line"></i>
-                                <p class="desc">
-                                    Pemandu berpengalaman
-                                </p>
-                            </div>
-                            <div class="about-item d-flex">
-        
-                                    <i class="fa-solid fa-money-bill-wave"></i>
-                                <p class="desc">
-                                    Harga transparan
-                                </p>
-                            </div>
-                            <div class="about-item d-flex">
-        
-                                    <i class="fa-solid fa-hand-holding-hand"></i>
-                                <p class="desc">
-                                    Dukungan pelanggan
-                                </p>
-                            </div>
+        <div class="about-wrapper d-flex justify-content-center">
+            <div class="container-fluid">
+                    <div class="row">
+                    <div class="col-12 col-md-12 col-lg-6 d-flex align-items-center justify-content-center flex-column bagian-kiri">
+                        <h2>
+                            About Us.
+                        </h2>
+                        <div class="about-pic">
+                            <img src="Assets/images/Hero.jpg" alt="about" class="col-img rounded-5">
                         </div>
-                    </div>  
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-6 d-flex justify-content-center flex-column bagian-kanan">
+                        <div class="baground-kanan rounded-5">
+                            <h2>Your Journey, Our Passion</h2>
+                            <p>
+                                JelajahNusa hadir untuk membantu wisatawan menjelajahi keindahan Indonesia melalui perjalanan yang nyaman,
+                                terencana, dan berkesan. Kami percaya setiap perjalanan memiliki cerita yang layak dikenang.
+                            </p>
+                            <div class="row g-2">
+                                <div class="about-card d-flex align-items-center">
+                                    <div class="about-item d-flex">
+                                            <i class="fa-solid fa-boxes-packing"></i>
+                                        
+                                        <h6 class="desc">
+                                            Paket perjalanan terkurasi
+                                        </h6>
+                                    </div>
+                                    <div class="about-item d-flex">
+                
+                                            <i class="fa-solid fa-person-arrow-up-from-line"></i>
+                                        <h6 class="desc">
+                                            Pemandu berpengalaman
+                                        </h6>
+                                    </div>
+                                    <div class="about-item d-flex">
+                
+                                            <i class="fa-solid fa-money-bill-wave"></i>
+                                        <h6 class="desc">
+                                            Harga transparan
+                                        </h6>
+                                    </div>
+                                    <div class="about-item d-flex">
+                
+                                            <i class="fa-solid fa-hand-holding-hand"></i>
+                                        <h6 class="desc">
+                                            Dukungan pelanggan
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
                 </div>
             </div>
+            
+            
         </div>
         
         
     </div>
 
-    
     <section class="destination-section justify-content-center align-items-center">
         <div class="container-fluid">
 
@@ -232,8 +248,8 @@
                 <p>Temukan destinasi wisata terbaik di Indonesia.</p>
             </div>
             <div class="row">
-                <div class="col-12 col-md-12 col-lg-5">
-                    <div class="featured-destination">
+                <div class="col-lg-5">
+                    <div class="featured-destination col-12 col-md-12">
                         <div class="featured-image">
                             <img src="Assets/images/Hero.jpg" alt="feature">
                         </div>
@@ -248,9 +264,9 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-md-12 col-lg-7">
+                <div class="col-lg-7">
                     <div class="destination-list">
-                        <div class="destination-item">
+                        <div class="destination-item col-12 col-md-12">
                             <div class="destination-image">
                                 <img src="Assets/images/Bali.jpg" alt="Bali">
                             </div>
@@ -270,7 +286,7 @@
                             </div>
                         </div>
 
-                        <div class="destination-item">
+                        <div class="destination-item col-12 col-md-12">
                             <div class="destination-image">
                                 <img src="Assets/images/Raja Ampat.jpg" alt="Raja ampat">
                             </div>
@@ -290,7 +306,7 @@
                             </div>
                         </div>
 
-                        <div class="destination-item">
+                        <div class="destination-item col-12 col-md-12">
                             <div class="destination-image">
                                 <img src="Assets/images/Bromo.jpg" alt="Gunung Bromo">
                             </div>
@@ -310,7 +326,7 @@
                             </div>
                         </div>
 
-                        <div class="destination-item">
+                        <div class="destination-item col-12 col-md-12">
                             <div class="destination-image">
                                 <img src="Assets/images/Labuan Bajo.jpg" alt="Labuan Bajo">
                             </div>
@@ -335,6 +351,120 @@
             </div>
         </div>
     </section>
+
+    <section class="packages-section justify-content-center align-items-center">
+        <div class="container-fluid">
+            <div class="packages-heading">
+                <h2>Packages</h2>
+                <p>Pilih destinasi yang ingin anda kunjungi.</p>
+            </div>
+            <div class="row">
+                <div class="packages-grid d-grid">
+                    <div class="packages-card col-12 col-md-6 col-lg-3">
+                        <div class="Packages-pic">
+                            <img src="Assets/images/Bali.jpg" alt="Bali" class="foto">
+                            
+                        </div>
+                        <div class="Packages-isi">
+                            <div class="duration">
+                                3 Hari 2 Malam
+                        </div>
+                            <h4>
+                                Bali Escape
+                            </h4>
+                            <p>
+                                2.450.000
+                            </p>
+                            <div class="packages-button">
+                                <a class="btn-packages btn btn-primary" href="#" role="button">View Packages</a>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="packages-card col-12 col-md-6 col-lg-3">
+                        <div class="Packages-pic">
+                            <img src="Assets/images/Raja Ampat.jpg" alt="Bali" class="foto">
+                        </div>
+                        <div class="Packages-isi">
+                            <div class="duration">
+                                4 Hari 3 Malam
+                        </div>
+                            <h4>
+                                Raja Ampat Discovery
+                            </h4>
+                            <p>
+                                5.750.000
+                            </p>
+                            <div class="packages-button">
+                                <a class="btn-packages btn btn-primary" href="#" role="button">View Packages</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="packages-card col-12 col-md-6 col-lg-3">
+                        <div class="Packages-pic">
+                            <img src="Assets/images/Bromo.jpg" alt="Bali" class="foto">
+                        </div>
+                        <div class="Packages-isi">
+                            <div class="duration">
+                                2 Hari 1 Malam
+                        </div>
+                            <h4>
+                                Bromo Sunrice Trip
+                            </h4>
+                            <p>
+                                1.350.000
+                            </p>
+                            <div class="packages-button">
+                                <a class="btn-packages btn btn-primary" href="#" role="button">View Packages</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="packages-card col-12 col-md-6 col-lg-3">
+                        <div class="Packages-pic">
+                            <img src="Assets/images/Labuan Bajo.jpg" alt="Bali" class="foto">
+                        </div>
+                        <div class="Packages-isi">
+                            <div class="duration">
+                                3 Hari 2 Malam
+                        </div>
+                            <h4>
+                                Labuan Bajo Explorer
+                            </h4>
+                            <p>
+                                3.950.000
+                            </p>
+                            <div class="packages-button">
+                                <a class="btn-packages btn btn-primary" href="#" role="button">View Packages</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            
+            <div class="packages-heading">
+                <h2>Choose Your Next adventure</h2>
+            </div>
+            <div class="packages-button d-flex align-items-center justify-content-center">
+                <a class="btn-packages btn btn-primary" href="#" role="button">Book Your Trip <i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section justify-content-center align-items-center">
+        <div class="container-fluid">
+            <div class="contact-heading">
+                <h2>Contact</h2>
+                <h2>
+                    Lest Plan Your Next Trip
+                </h2>
+                <p>
+                    Punya pertanyaan atau ingin merencanakan liburan? Hubungi tim JelajahNusa melalui informasi berikut.
+                </p>
+            </div>
+            <div class="row">
+
+            </div>
+        </div>
+     </section>
 
     
     
