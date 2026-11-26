@@ -379,7 +379,7 @@ h2 {
 
 .destination-list {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 20px;
 }
 
@@ -594,6 +594,24 @@ h2 {
     color: var(--color-primary);
 }
 
+.contact-card {
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 20px 50px rgba(20, 70, 63, 0.15);
+    background-color: var(--color-text-primary);
+}
+
+.contact-card > aside {
+    padding: 0;
+}
+
+.contact-value-kiri {
+    background: linear-gradient(160deg, var(--color-primary) 0%, var(--color-primary) 100%);
+    padding: 140px 32px;
+    height: 100%;
+    width: 100%;
+}
+
 
 /* Button destinations */
 
@@ -612,6 +630,10 @@ h2 {
 
     .destination-card img {
         height: 350px;
+    }
+
+    .packages-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
 }
@@ -639,5 +661,13 @@ h2 {
         min-width: 0;
         padding: 10px 6px;
         border-right: none;
+    }
+
+    .packages-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .destination-list {
+        grid-template-columns: 1fr;
     }
 }
